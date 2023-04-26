@@ -8,11 +8,15 @@
   display: flex;
   background-color: rgb(50, 167, 145);
 }
-#title {
+#trybewarts-header-title {
   a
 }
 
 .trybewarts-header-logo {
   width: 70px;
   margin-left
+}
+
+.trybewarts-login {
+  display: flex;
 }
