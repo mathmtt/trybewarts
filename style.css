@@ -82,7 +82,7 @@ main {
 
 
 
-#logo-principal {
+#trybewarts-forms-logo {
   height: 500px;
 }
 
@@ -95,6 +95,15 @@ main {
   display: flex;
   flex-direction: column;
   margin: 10px;
+}
+.rate-container  {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.rate [ name *= 'rate' ] {
+  margin-left: 10px;
 }
 
 footer {

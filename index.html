@@ -12,10 +12,12 @@
     <img src="images/trybewarts-header-logo.svg" class="trybewarts-header-logo">
     <h1 id="trybewarts-header-title">Trybewarts</h1>
     <form class="trybewarts-login">
-      <!-- <label for="email">Email: </label> -->
+      <div>
       <input type="email" placeholder="Email" id="email" name="email">
-      <input type="password" placeholder="Senha" id="password" name="password">
-      <!-- <label for="password" id="password">Senha: </label> -->
+    </div>
+      <div>
+    <input type="password" placeholder="Senha" id="password" name="password">
+    </div>
       <div>
         <button id="btn-login">Entrar</button>
       </div>
@@ -60,7 +62,7 @@
         <label for="subject">Python</label>
         <input type="checkbox" class="subject" value="Python">
       </div>
-      <div>
+      <div class="rate-container">
         <label id="label-rate">Como você avalia a Trybewarts?</label>
           <div>
           <input type="radio" name="rate" value="1">1
@@ -87,7 +89,7 @@
         <button type="submit" id="submit-btn">Enviar</button>
       </div>
     </form>
-    <img src="images/trybewarts-colored.svg" id="logo-principal">
+    <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo">
   </main>
   <footer>
     <p>Direitos reservados à Trybewarts©</p>
