@@ -10,16 +10,14 @@
 <body>
   <header class="header">
     <img src="images/trybewarts-header-logo.svg" class="trybewarts-header-logo">
+    <h1 id="trybewarts-header-title">Trybewarts</h1>
     <form class="trybewarts-login">
-      <label for="email">Email: </label>
       <input type="email" placeholder="Email" id="email" name="email">
-      <label for="password">Senha: </label>
       <input type="password" placeholder="Senha" id="password" name="password">
       <div>
         <button id="btn-login">Entrar</button>
       </div>
     </form> 
-    <h1 id="trybewarts-header-title">Trybewarts</h1>
   </header>
   <main>
     <form id="evaluation-form">
@@ -38,9 +36,30 @@
       </div>
       <div class="selectHouse">
         <label id="label-family">Qual sua família?</label>
-        <input type="radio" name="family" value="Frontend">
-        <input type="radio" name="family" value="Backend">
-        <input type="radio" name="family" value="FullStack">
+        <label for="frontend">Frontend</label>
+        <input type="radio" name="family" id="frontend" value="Frontend">
+        <label for="beckend">Backend</label>
+        <input type="radio" name="family" id="beckend" value="Backend">
+        <label for="fullstack">FullStack</label>
+        <input type="radio" name="family" id="fullstack" value="FullStack">
+      </div>
+      <div>
+        <p id="label-content">Qual conteúdo você está com mais vontade de aprender?</p>
+        <label for="subject">HoFs</label>
+        <input type="checkbox" class="subject" value="HoFs">
+        <label for="subject">Jest</label>
+        <input type="checkbox" class="subject" value="Jest">
+        <label for="subject">Promises</label>
+        <input type="checkbox" class="subject" value="Promises">
+        <label for="subject">React</label>
+        <input type="checkbox" class="subject" value="React">
+        <label for="subject">SQL</label>
+        <input type="checkbox" class="subject" value="SQL">
+        <label for="subject">Python</label>
+        <input type="checkbox" class="subject" value="Python">
+      </div>
+      <div>
+        <label id="label-rate">Como você avalia a Trybewarts?</label>
       </div>
       <img src="images/trybewarts-colored.svg" id="logo-principal">
     </form>

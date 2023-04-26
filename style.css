@@ -33,3 +33,13 @@ main {
 #logo-principal {
   height: 500px;
 }
+
+.selectHouse {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-content {
+  display: flex;
+  flex-direction: column;
+}
