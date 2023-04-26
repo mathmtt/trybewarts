@@ -1,5 +1,3 @@
-
-
 function access() {
     if (mail.value === 'tryber@teste.com' && password.value === '123456') {
        alert('Olá, Tryber!'); 
