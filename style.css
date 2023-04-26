@@ -7,6 +7,9 @@
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
 }
 
 
@@ -15,20 +18,42 @@
   /* margin-left */
 }
 
+#email, #password {
+  height: 35px;
+  width: 170px;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+
 .trybewarts-login {
   display: flex;
+  gap: 10px;
 
 }
 
 main {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 10px;
 }
 
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
+  border-radius: 10px;
+  font-size: 16px;
+  align-self: auto;
+  margin: 20px 40px;
+  padding: 15px;
 }
+
+
 
 #logo-principal {
   height: 500px;
