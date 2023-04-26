@@ -9,10 +9,24 @@
   background-color: rgb(50, 167, 145);
 }
 #title {
-  a
+
 }
 
 .trybewarts-header-logo {
   width: 70px;
-  margin-left
+
+}
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#logo-principal {
+  height: 500px;
 }
