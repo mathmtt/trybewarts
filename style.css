@@ -85,7 +85,7 @@ main {
   height: 500px;
 }
 
-.selectHousee {
+.selectHouse {
   display: flex;
   flex-direction: column;
   flex-basis: 50%;
