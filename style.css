@@ -115,7 +115,7 @@ main {
 .adjust-container {
   display: flex;
   justify-content: space-between;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
 #areatext {
@@ -143,6 +143,14 @@ footer {
   text-align: center;
   background-color: rgb(50, 167, 145);
   padding: 25px;
+}
+
+#submit-btn {
+  height: 40px;
+  padding: 0 16px;
+  border-radius: 20px;
+  background-color: rgb(50, 167, 145);
+  color: black;
 }
 
 .infos {
