@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 <body>
@@ -38,23 +39,29 @@
           <option value="Pytherina" id="pytherina-house">Pytherina</option>
         </select>
       </div>
+      <div class="adjust-container">
       <div class="selectHouse">
         <label id="label-family">Qual sua família?</label>
-          <div class="colunas">
+          <!-- <div class="colunas"> -->
           <input type="radio" name="family" id="frontend" value="Frontend"> Frontend
           <input type="radio" name="family" id="beckend" value="Backend"> Backend
           <input type="radio" name="family" id="fullstack" value="FullStack"> FullStack
         </div>
+      </div>
+      <div class="adjust-container">
         <p id="label-content">Qual conteúdo você está com mais vontade de aprender?</p>
-        <div>
+        <div class="checkbox">
           <input type="checkbox" class="subject" value="HoFs"> HoFs
           <input type="checkbox" class="subject" value="Jest"> Jest
           <input type="checkbox" class="subject" value="Promises"> Promises
+        </div>
+        <div class="checkbox">
           <input type="checkbox" class="subject" value="React"> React
           <input type="checkbox" class="subject" value="SQL"> SQL
           <input type="checkbox" class="subject" value="Python"> Python
         </div>
       </div>
+    </div>
       <div>
         
       </div>
@@ -75,7 +82,7 @@
       </div>
       <div>
         <label class="textarea">Deixe seu comentário: </label>
-        <textarea class="textarea" name="cometario" maxlength="500"></textarea>
+        <textarea id="areatext" name="cometario" maxlength="500"></textarea>
       </div>
       <div>
         <label id="label-infos">Você concorda com o uso das informações acima? </label>
