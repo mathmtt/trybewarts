@@ -8,24 +8,19 @@
   display: flex;
   background-color: rgb(50, 167, 145);
 }
-<<<<<<< HEAD
 #trybewarts-header-title {
   a
-=======
 #title {
 
->>>>>>> 0ebd6be6983c9a1e81f7d12effe2fff9c7f4ce65
 }
 
 .trybewarts-header-logo {
   width: 70px;
-<<<<<<< HEAD
   margin-left
 }
 
 .trybewarts-login {
   display: flex;
-=======
 
 }
 
@@ -41,5 +36,4 @@ main {
 
 #logo-principal {
   height: 500px;
->>>>>>> 0ebd6be6983c9a1e81f7d12effe2fff9c7f4ce65
 }
