@@ -102,6 +102,7 @@ main {
   flex-direction: column;
   margin: 10px;
 }
+
 .rate-container  {
   display: flex;
   justify-content: space-between;
