@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: 'Yusei Magic', sans-serif;;
+  font-family: Yusei Magic, sans-serif;
 }
 
 #btn-login {
@@ -77,12 +77,11 @@ main {
   font-size: 16px;
   align-self: auto;
   margin: 20px 40px;
-  margin-left: 100px;
   padding: 15px;
 }
 
 #trybewarts-forms-logo {
-  margin-right: 200px;
+  margin-right: 100px;
   height: 500px;
 }
 
@@ -102,10 +101,13 @@ main {
   flex-direction: column;
   margin: 10px;
 }
-.rate-container  {
+
+.rate-container {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .rate [ name *= 'rate' ] {
@@ -114,6 +116,7 @@ main {
 
 .adjust-container {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin: 10px 0;
 }
@@ -146,6 +149,7 @@ footer {
 }
 
 #submit-btn {
+  margin-top: 15px;
   height: 40px;
   padding: 0 16px;
   border-radius: 20px;

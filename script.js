@@ -1,4 +1,4 @@
-//Exercicio 3
+// Exercicio 3
 
 const mail = document.getElementById('email');
 const password = document.getElementById('password');
@@ -13,7 +13,7 @@ function access() {
 }
 loginBtn.addEventListener('click', access);
 
-//Exercicio 18
+// Exercicio 18
 
 const btnSubmit = document.querySelector('#submit-btn');
 const agreement = document.querySelector('#agreement');
