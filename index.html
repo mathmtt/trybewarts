@@ -23,11 +23,11 @@
   </header>
   <main>
     <form id="evaluation-form">
-      <div>
+      <div class="infos">
         <input type="text" placeholder="Nome" id="input-name">
         <input type="text" placeholder="Sobrenome" id="input-lastname">
       </div>
-      <div>
+      <div class="infos">
         <input type="email" placeholder="Email" id="input-email">
         <select id="house">
           <option value="Gitnória" id="gitnoria-house">Gitnória</option>
@@ -38,13 +38,11 @@
       </div>
       <div class="selectHouse">
         <label id="label-family">Qual sua família?</label>
-          <div>
+          <div class="colunas">
           <input type="radio" name="family" id="frontend" value="Frontend"> Frontend
           <input type="radio" name="family" id="beckend" value="Backend"> Backend
           <input type="radio" name="family" id="fullstack" value="FullStack"> FullStack
         </div>
-      </div>
-      <div>
         <p id="label-content">Qual conteúdo você está com mais vontade de aprender?</p>
         <div>
           <input type="checkbox" class="subject" value="HoFs"> HoFs
@@ -54,6 +52,9 @@
           <input type="checkbox" class="subject" value="SQL"> SQL
           <input type="checkbox" class="subject" value="Python"> Python
         </div>
+      </div>
+      <div>
+        
       </div>
       <div>
         <label id="label-rate">Como você avalia a Trybewarts?</label>
