@@ -12,6 +12,10 @@
   padding: 0 40px;
 }
 
+body {
+  font-family: 'Yusei Magic', sans-serif;;
+}
+
 #btn-login {
   height: 40px;
   padding: 0 16px;
@@ -84,6 +88,13 @@ main {
 
 .selectHouse {
   display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+#evaluation-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 .label-content {
@@ -99,6 +110,29 @@ main {
 
 .rate [ name *= 'rate' ] {
   margin-left: 10px;
+}
+
+.adjust-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+#areatext {
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.textarea {
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: column;
+}
+
+.checkbox {
+  display: flex;
+  gap: 20px;
 }
 
 footer {
